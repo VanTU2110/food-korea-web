@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+#header {
+  width: 100%;
+  padding:0px 30px;
+  margin-top:33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+}
+
+#menu {
+  list-style:none;
+  display: flex;
+}
+
+#menu .item {
+  margin:0px 25px;
+}
+
+#menu .item a {
+  color:#626A67;
+  text-decoration: none;
+}
+
+
+#actions {
+  display: flex;
+}
+
+#actions .item {
+  margin-left:22px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.wrapper-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formlogin {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.input_field {
+  margin-bottom: 20px;
+}
+
+.input_field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  text-decoration: none;
+}

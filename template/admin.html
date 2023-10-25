@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/admin.png" type="image/x-icon">k
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="../fontawesome-free-6.4.0-web/css/fontawesome.css" rel="stylesheet">
+    <link href="../fontawesome-free-6.4.0-web/css/brands.css" rel="stylesheet">
+    <link href="../fontawesome-free-6.4.0-web/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="../BeVietnamPro-Black.ttf">
+    <title>Admin</title>
+    <script src="admin.js" defer></script>
+</head>
+
+<body>
+    <input type="checkbox" name="" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <span class="">
+                <h2><span class="material-symbols-outlined">dataset</span><span><a
+                            href="http://127.0.0.1:5502/Index.html" style="color:#fff">Foody</a></span></h2>
+            </span>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active"><span class="material-symbols-outlined">
+                            team_dashboard
+                        </span>
+                        <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="material-symbols-outlined">
+                            person
+                        </span>
+                        <span>Tài khoản</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="material-symbols-outlined">
+                            assignment
+                        </span>
+                        <span>Đơn hàng</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="material-symbols-outlined">
+                            local_shipping
+                        </span>
+                        <span>Nhập hàng</span></a>
+                    <div class="product-in">
+
+                    </div>
+                </li>
+                <li>
+                    <a href=""><span class="material-symbols-outlined">
+                            inventory_2
+                        </span>
+                        <span>Kho</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="material-symbols-outlined">
+                            task
+                        </span>
+                        <span>Đăng xuất</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </label>
+
+                Dashboard
+            </h2>
+            <div class="search-wrapper">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <input type="search" name="" id="" placeholder="Search here">
+            </div>
+            <div class="user-wrapper">
+                <img src="assets/good-food.png" alt="" width="30px" height="40px">
+                <div>
+                    <h4>Van Tu</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>86</h1>
+                        <span>Khách hàng</span>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h1>270</h1>
+                        <span>Đơn hàng</span>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        assignment
+                    </span>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h1>38</h1>
+                        <span>Đang giao</span>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        local_shipping
+                    </span>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h1>98.0M</h1>
+                        <span>Tổng doanh thu</span>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        wallet
+                    </span>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Đơn hàng gần đây</h3>
+                            <button>Xem tất cả<span class="material-symbols-outlined"> arrow_forward </span>
+                            </button>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Tên đơn hàng</td>
+                                            <td>Đơn vị vận chuyển</td>
+                                            <td>Trạng thái</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Cửu vân long</td>
+                                            <td>Express Team</td>
+                                            <td><span class="status purple"></span>Đang chờ duyệt</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Trà sữa dừa nướng</td>
+                                            <td>Express Team</td>
+                                            <td><span class="status pink"></span>Đang giao</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gà không lối thoát</td>
+                                            <td>Express Team</td>
+                                            <td><span class="status orange"></span>Đang giao</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tobokki</td>
+                                            <td>Express Team</td>
+                                            <td><span class="status purple"></span>Đang chờ duyệt</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bò phi lê</td>
+                                            <td>Express Team</td>
+                                            <td><span class="status pink"></span>Đang giao</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Chả cá xiên</td>
+                                            <td>Express Team</td>
+                                            <td><span class="status orange"></span>Đang giao</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Khách hàng</h3>
+                            <button>Xem tất cả<span class="material-symbols-outlined"> arrow_forward </span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="product-box-right-info">
+                                    <img src="assets/facebookavt.jpg" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Thái Hoàng</h4>
+                                        <small>Khách hàng thân thiết</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="material-symbols-outlined"> account_circle </span>
+                                    <span class="material-symbols-outlined">comment </span>
+                                    <span class="material-symbols-outlined">call</span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="assets/facebookavt.jpg" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lê Bảo</h4>
+                                        <small>Khách hàng mới</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="material-symbols-outlined"> account_circle </span>
+                                    <span class="material-symbols-outlined">comment </span>
+                                    <span class="material-symbols-outlined">call</span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="assets/facebookavt.jpg" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Nam Per</h4>
+                                        <small>Khách hàng thân thiết</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="material-symbols-outlined"> account_circle </span>
+                                    <span class="material-symbols-outlined">comment </span>
+                                    <span class="material-symbols-outlined">call</span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="assets/facebookavt.jpg" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Ngọc Khánh</h4>
+                                        <small>Khách hàng thân thiết</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="material-symbols-outlined"> account_circle </span>
+                                    <span class="material-symbols-outlined">comment </span>
+                                    <span class="material-symbols-outlined">call</span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="assets/facebookavt.jpg" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>Văn Tài</h4>
+                                        <small>Khách hàng mới</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="material-symbols-outlined"> account_circle </span>
+                                    <span class="material-symbols-outlined">comment </span>
+                                    <span class="material-symbols-outlined">call</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div id="account-content">
+            <!-- Content for "Tài khoản" menu -->
+            <!-- Replace this with the actual content you want to display -->
+            <h2>Welcome Admin!</h2>
+            <div class="homeinfo" style="margin-left: 10rem;padding: 10px;;">Thông tin của bạn trong Foody</div>
+            <div class="info_account">
+                <h4><span class="material-symbols-outlined"> account_circle </span>Thông tin tài khoản</h4>
+            </div>
+            <div class="info-details">
+                <table style="width: 700px;">
+                    <tr>
+                        <td>Mã nhân viên</td>
+                        <td>Admin1</td>
+                    </tr>
+                    <tr>
+                        <td>Tên nhân viên</td>
+                        <td>Pham Van Tu</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>souhleesin123@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Số điện thoại</td>
+                        <td>038.xxxx.079</td>
+                    </tr>
+
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td>Văn Nhuế, Hưng Yên.</td>
+                    </tr>
+                    <tr>
+                        <td>Tên đăng nhập</td>
+                        <td>Tudz2110@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mật khẩu</td>
+                        <td>******** <span class="material-symbols-outlined" style="font-size: 1rem;">visibility</span>
+                        </td>
+                    </tr>
+                </table>
+
+                <div><button class="changepassword">Đổi mật khẩu</button></div>
+            </div>
+
+        </div>
+
+        <div id="product-oder-content">
+            <div>
+                <h1 style="align-items:flex-start;display:flex;justify-content:center;margin:0px 0px 13px;">Thông tin
+                    đơn
+                    hàng</h1>
+            </div>
+
+            <div class="table-order">
+                <table class="product-table" style="width: 100%;border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th style="padding: 8px;text-align: left;border-bottom: 1px solid #ddd;">Tên sản phẩm</th>
+                            <th>Mã sản phẩm</th>
+                            <th>Số lượng đặt</th>
+                            <th>Trạng thái</th>
+                            <th>Người đặt</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cửu vân long</td>
+                            <td>SP001</td>
+                            <td>5</td>
+                            <td>Đã giao hàng</td>
+                            <td>Nguyễn Văn A</td>
+                            <td>nguyenvana@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Trà sữa dừa nướng</td>
+                            <td>SP002</td>
+                            <td>3</td>
+                            <td>Đang giao hàng</td>
+                            <td>Trần Thị B</td>
+                            <td>tranthib@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Gà không lối thoát</td>
+                            <td>SP003</td>
+                            <td>2</td>
+                            <td>Chờ xử lý</td>
+                            <td>Lê Văn C</td>
+                            <td>levanc@example.com</td>
+                        </tr>
+                        <!-- Các hàng khác -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="add-product">
+            <div class="add-product">
+                <h1 style="display: flex; justify-content: center;">Thêm sản phẩm đồ ăn</h1>
+                <form id="productForm">
+                    <label for="order">Thứ tự:</label>
+                    <input type="number" id="order" name="order" required><br>
+
+                    <label for="image">Ảnh:</label>
+                    <input type="file" id="image" name="image" accept="image/*" required><br>
+                    <img id="image-preview" src="" alt="Ảnh đã chọn" style="width: 300px;margin: 0px 3px 0px 115px;">
+
+                    <label for="name">Tên sản phẩm:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="code">Mã sản phẩm:</label>
+                    <input type="text" id="code" name="code" required><br>
+
+                    <label for="quantity">Số lượng:</label>
+                    <input type="number" id="quantity" name="quantity" required><br>
+
+                    <label for="supplier">Nguồn cung cấp:</label>
+                    <input type="text" id="supplier" name="supplier" required><br>
+
+                    <label for="price">Giá:</label>
+                    <input type="number" id="price" name="price" required><br>
+
+                    <label for="date">Ngày cấp:</label>
+                    <input type="date" id="date" name="date" required><br>
+
+                    <label for="status">Trạng thái:</label>
+                    <select id="status" name="status" required
+                        style="width: 400px;padding: 5px;margin: 5px;text-align: center;">
+                        <option value="Còn">Còn</option>
+                        <option value="Hết hàng">Hết hàng</option>
+                    </select><br>
+
+                    <input type="submit" value="Thêm sản phẩm">
+                </form>
+            </div>
+        </div>
+
+
+        <div id="inventory">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Thứ tự</th>
+                        <th>Hình ảnh</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Ngày nhập</th>
+                        <th>Trạng thái</th>
+                        <th>Số lượng còn lại</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img class="product-image" src="assets/anvathanquoc.jpg" alt="Hình ảnh sản phẩm"></td>
+                        <td>Tobokki</td>
+                        <td>01/01/2023</td>
+                        <td class="product-status">Còn</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img class="product-image" src="assets/buachay.webp" alt="Hình ảnh sản phẩm"></td>
+                        <td>Bữa chay</td>
+                        <td>02/01/2023</td>
+                        <td class="product-status">Còn</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img class="product-image" src="assets/chacaxien.jpg" alt="Hình ảnh sản phẩm"></td>
+                        <td>Chả cá xiên</td>
+                        <td>02/01/2023</td>
+                        <td class="product-status">Còn</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><img class="product-image" src="assets/combokaido.png" alt="Hình ảnh sản phẩm"></td>
+                        <td>combokaido</td>
+                        <td>02/01/2023</td>
+                        <td class="product-status">Còn</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><img class="product-image" src="assets/mucchien.png" alt="Hình ảnh sản phẩm"></td>
+                        <td>Mực chiên giòn</td>
+                        <td>02/01/2023</td>
+                        <td class="product-status">Hết hàng</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><img class="product-image" src="assets/bundlelove.webp" alt="Hình ảnh sản phẩm"></td>
+                        <td>Bundle Love</td>
+                        <td>01/02/2023</td>
+                        <td class="product-status">Còn</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><img class="product-image" src="assets/chismas.webp" alt="Hình ảnh sản phẩm"></td>
+                        <td>Chismas Speacial</td>
+                        <td>02/01/2023</td>
+                        <td class="product-status">Hết hàng</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><img class="product-image" src="assets/gametvagakhongloithoat.jpg" alt="Hình ảnh sản phẩm">
+                        </td>
+                        <td>Gà không lối thoát</td>
+                        <td>02/01/2023</td>
+                        <td class="product-status">Hết hàng</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><img class="product-image" src="assets/trasuakhoaimon.jpeg" alt="Hình ảnh sản phẩm"></td>
+                        <td>Trà sữa khoai môn</td>
+                        <td>02/01/2023</td>
+                        <td class="product-status">Còn</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><img class="product-image" src="assets/trasuatranchau.jpg" alt="Hình ảnh sản phẩm"></td>
+                        <td>Trà sữa chân trâu</td>
+                        <td>03/05/2023</td>
+                        <td class="product-status">Còn</td>
+                        <td>15</td>
+                    </tr>
+                    <!-- Thêm các hàng sản phẩm khác tương tự ở đây -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="js/admin.js"></script>
+
+</html>

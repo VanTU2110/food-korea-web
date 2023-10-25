@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.header{
+    background-color:#8AAAE5;;
+}
+
+.contact{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.contact-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.contact-1 img{
+    height: 50px;
+    width: 140px;
+}
+
+.contact-1 a{
+    margin-top: 17px;
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.login-cart{
+    margin-left: 10px;
+}
+
+.contact-2{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contact-2 a{
+    margin-right: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.box {
+    height: 30px;
+    width: 350px;
+    border-radius: 15px;
+    display: flex;
+    /* position: absolute; */
+  }
+  
+  .input {
+    flex: 1;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid black;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  
+  .box button {
+    background-color: black;
+    /* margin-left: 350px; */
+    right: 265px;
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 24.5px;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+
+
+
+
+
+

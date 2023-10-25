@@ -1,0 +1,222 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Canh kim chi",
+            "description":"Mô tả:Canh kim chi",
+            "price":"120.000 VND",
+            "img_url":"../img/1377_Canh_kim_chi_1_2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Tobokki hải sản xào cay",
+            "description":"Mô tả:Tobokki hải sản",
+            "price":"100.000 VND",
+            "img_url":"../img/2421_Tokboki_xao_hai_san_1_1.jpg"
+        },
+        {
+            "id":3,
+            "name":"Há cảo truyền thống",
+            "description":"Mô tả:Há cảo truyền thống",
+            "price":"150.000 VND",
+            "img_url":"../img/2424_Ha_cao_truyen_thong_han_quoc_1_1.jpg"
+        },
+        {
+            "id":3,
+            "name":"Bánh xèo hải sản",
+            "description":"Bánh xèo hải sản ngon tuyệt vời",
+            "price":"150.000 VND",
+            "img_url":"../img/2630_Banh_xeo_hai_san_Gogi_1_2.jpg"
+        },
+        {
+            "id":4,
+            "name":"Cơm trộn bát đá",
+            "description":"Cơm trộn bát đá",
+            "price":"180.000 VND",
+            "img_url":"../img/2643_Com_tron_bat_da_han_quoc_sot_gogi_1_2.jpg"
+        },
+        {
+            "id":5,
+            "name":"Lẩu Bulgogi",
+            "description":"Lẩu Bulgogi",
+            "price":"299.000 VND",
+            "img_url":"../img/4885_Lau_Bulgogi_1_2.jpg"
+        },
+        {
+            "id":6,
+            "name":"Lẩu kim chi",
+            "description":"Lẩu kimchi cay thơm nồng ấm",
+            "price":"299.000 VND",
+            "img_url":"../img/4886_Lau_kim_chi_1_2.jpg"
+        },
+        {
+            "id":7,
+            "name":"Lẩu hải sản cay ",
+            "description":"Lẩu Hải Sản cay thơm",
+            "price":"300.000 VND",
+            "img_url":"../img/lau-cay-hai-san.jpg"
+        },
+        {
+            "id":8,
+            "name":"Set lẩu hoàng gia",
+            "description":"Set lẩu giành cho gia đình 4 5 người ",
+            "price":"699.000 VND",
+            "img_url":"../img/namhoanggia.png"
+        },
+        {
+            "id":9,
+            "name":"Tobokki nhân phô mai",
+            "description":"Tobokki nhân phô mai",
+            "price":"130.000 VND",
+            "img_url":"../img/tokpokki-nhan-pho-mai.jpg"
+        },
+        {
+            "id":10,
+            "name":"Canh thịt bò bullogi ",
+            "description":"Món canh thơm ngon bổ dưỡng",
+            "price":"150.000 VND",
+            "img_url":"../img/canh-thit-bo-bulgogi-new.jpg"
+        },
+        {
+            "id":11,
+            "name":"Bạch tuộc sốt cay",
+            "description":"Bạch tuộc sốt cay",
+            "price":"150.000 VND",
+            "img_url":"../img/bach-tuot-sot-cay.jpg"
+        },
+        {
+            "id":12,
+            "name":"Canh tương đậu",
+            "description":"Canh tương đậu",
+            "price":"150.000 VND",
+            "img_url":"../img/canh-tuong-dau_1.jpg"
+        },
+        {
+            "id":13,
+            "name":"Bò nướng GwangYang",
+            "description":"Mô tả:Há cảo truyền thống",
+            "price":"399.000 VND",
+            "img_url":"../img/Bo_nuong_GwangYang.jpg"
+        },
+        {
+            "id":14,
+            "name":"Sườn bò hầm",
+            "description":"SƯờn bò hầm",
+            "price":"150.000 VND",
+            "img_url":"../img/suon_bo_ham.jpg"
+        },
+        {
+            "id":15,
+            "name":"Bạch tuộc sốt cay",
+            "description":"Bạch tuộc sốt cay",
+            "price":"150.000 VND",
+            "img_url":"../img/bach-tuot-sot-cay.jpg"
+        },
+        {
+            "id":16,
+            "name":"Trứng hấp",
+            "description":"Trứng hấp",
+            "price":"60.000 VND",
+            "img_url":"../img/trung_hap.jpg"
+        },
+        {
+            "id":17,
+            "name":"Panacota chanh dây",
+            "description":"Panacota chanh dây",
+            "price":"150.000 VND",
+            "img_url":"../img/panna_cotta_chanh_day_2.jpg"
+        },
+        {
+            "id":18,
+            "name":"Panacota dâu",
+            "description":"Panacota dâu",
+            "price":"150.000 VND",
+            "img_url":"../img/panna_cotta_dau_2.jpg"
+        },
+        {
+            "id":19,
+            "name":"Panna Cota Dâu rừng",
+            "description":"Panna Cotta dâu rừng",
+            "price":"150.000 VND",
+            "img_url":"../img/panna_cotta_dau_rung_2.jpg"
+        },
+        {
+            "id":20,
+            "name":"Kem Vani",
+            "description":"Kem Vani",
+            "price":"150.000 VND",
+            "img_url":"../img/kem_vani_2.jpg"
+        },
+        {
+            "id":21,
+            "name":"Kem Viên sữa dâu",
+            "description":"Kem dâu",
+            "price":"150.000 VND",
+            "img_url":"../img/kem_vien_dau_sua.jpg"
+        },
+        {
+            "id":22,
+            "name":"Kem Socola",
+            "description":"Kem Socola",
+            "price":"150.000 VND",
+            "img_url":"../img/kem_vien_so_co_la.jpg"
+        },
+        {
+            "id":23,
+            "name":"Kem viên sữa dừa",
+            "description":"Kem sữa dữa",
+            "price":"150.000 VND",
+            "img_url":"../img/kem_vien_sua_dua.jpg"
+        },
+        {
+            "id":24,
+            "name":"Sườn heo nướng khay đá",
+            "description":"Sườn heo nướng",
+            "price":"250.000 VND",
+            "img_url":"../img/312347163_474959791317966_4451320575779440545_n.jpg"
+        },
+        {
+            "id":25,
+            "name":"Súp xương bò hầm hàn quốc",
+            "description":"Món súp thơm ngon bổ dưỡng",
+            "price":"180.000 VND",
+            "img_url":"../img/sup-xuong-bo-han-quoc.webp"
+        },
+        {
+            "id":26,
+            "name":"Cơm trắng",
+            "description":"Cơm trắng thơm ,dẻo",
+            "price":"10.000 VND",
+            "img_url":"../img/2428_Com_trang_1_2.jpg"
+        },
+        {
+            "id":27,
+            "name":"Gà rán sốt phô mai cay",
+            "description":"Gà rán giòn rụm",
+            "price":"150.000 VND",
+            "img_url":"../img/sot-phomai-ngap-nguaga-cay-pho-mai-quan-11.jpeg"
+        },
+        {
+            "id":28,
+            "name":"Canh gà hầm sâm",
+            "description":"Món canh thơm ngon bổ dưỡng",
+            "price":"150.000 VND",
+            "img_url":"../img/samgyetang2-1640762189-1640763-3779-3758-1640763826.jpeg"
+        },
+        {
+            "id":29,
+            "name":"Miến cuộn rong biển chiên giòn",
+            "description":"Thơm ngon,ròn rụm",
+            "price":"150.000 VND",
+            "img_url":"../img/mien-cuon-rong-bien-chien-gion-thumbnail-1.jpeg"
+        },
+        {
+            "id":30,
+            "name":"Mandu chiên giòn",
+            "description":"Món ăn ",
+            "price":"150.000 VND",
+            "img_url":"../img/kimchi-mandu-recipe_1980x1320-145214-1.jpeg"
+        }
+    ]
+    
+}

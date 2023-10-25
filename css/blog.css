@@ -1,0 +1,140 @@
+.{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+    background-color:#ffffff;
+    color: #252a25;
+    padding: 20px 50px;
+  }
+  .navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 20px 50px;
+    border-radius: 10px;
+  }
+  .Menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+  }
+  .searchInput{
+    background-color:#fefefe
+    border-radius:22px
+    color:#252a2b
+    display:inline-block
+    font-family:Quicksand
+    font-size:14px
+    line-height:19.6px
+    padding:8px 0px 8px 15px
+  }
+  .searchInput::placeholder {
+    color: lightgray;
+  }
+  .limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px solid green
+    
+  }
+  .navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: red; 
+    
+  }
+  .menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: red;
+    font-weight: 400px;
+  }
+  
+  
+  
+  .nen_web img{
+    width: 1500px;
+    height: 400px;
+    font-size: 14px;
+    line-height: 19px;
+    
+  
+  } 
+  .site-footer {
+    background-color: #26272b;
+    color: #737373;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.site-footer h3 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.bottom-container {
+    text-align: center;
+    margin-top: 20px;
+}

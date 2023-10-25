@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+.header{
+    background-color:#fff;;
+    
+}
+
+.contact{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.contact-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.contact-1 img{
+    height: 50px;
+    width: 140px;
+}
+
+.contact-1 a{
+    margin-top: 17px;
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.login-cart{
+    margin-left: 10px;
+}
+
+.contact-2{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contact-2 a{
+    margin-right: 60px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.box {
+    height: 30px;
+    width: 350px;
+    border-radius: 15px;
+    display: flex;
+    /* position: absolute; */
+  }
+  
+  .input {
+    flex: 1;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid black;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  
+  .box button {
+    background-color: black;
+    /* margin-left: 350px; */
+    right: 265px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 24.5px;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.oder-Form{
+    width: 48%;
+}
+/* CSS cho biểu mẫu đơn hàng */
+#orderForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px;
+    
+}
+
+#orderForm div {
+    margin-bottom: 50px;
+}
+#orderForm div label{
+    padding-bottom: 20px;
+}
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* CSS cho lỗi */
+input:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid #ddd;
+}
+
+.cart{
+    width: 48%;
+}
+.cart{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 0.5rem;
+
+}
+.cart h2{
+    margin-bottom:20px ;
+}
+.cart table{
+    width: 100%;
+}
+.cart table thead tr th:first-child{
+    text-align: left;
+
+
+}
+.cart table thead tr th:last-child{
+    text-align: right;
+
+
+}
+.cart table tbody tr td :last-child{
+    text-align: right;
+}
+.cart table tr td {
+    border-bottom: 1px solid #dddddd;
+    padding: 12px 0px;
+}
+.cart{
+    position: absolute;
+    right: 0;
+    top :150px;
+    background-color: #FFDAB9;
+    padding: 12px 12px 20px 20px;
+    overflow-y: scroll;
+    transition: 0.5s ease;
+}
+
+/* footer */
+footer{
+    margin-top: 10rem;
+    background-color: #1b1d1f;
+    padding: 20px 20px;
+    border-top: 5px solid grey;
+}
+.footer-cha{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.footer-logo a span{
+    text-transform: uppercase;
+    color: white;
+}
+.footer-mxh{
+    display: flex;
+    margin-top: 10px;
+}
+.footer-mxh a{
+    background-color: white;
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff15;
+    font-size: 0.9rem;
+    margin: 0 5px;
+}
+
+.footer-nd strong{
+    color: grey;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.footer-nd ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-nd ul li a{
+    text-decoration: none;
+    color: grey;
+    margin: 4px 0;
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+

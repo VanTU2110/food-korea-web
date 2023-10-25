@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signup.css">
+    <script src="login.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wraper-heading">
+            <h1>ĐĂNG KÍ TÀI KHOẢN</h1>
+        </div>
+        <form onsubmit="signup()">
+            <div class="input_field">
+                <input id="username" type="text" placeholder="Nhap ten tai khoan">
+            </div>
+
+            <div class="input_field">
+                <input id="email" type="text" placeholder="Nhap email">
+            </div>
+
+            <div class="input_field">
+                <input id="password" type="password" placeholder="Nhap mat khau">
+            </div>
+
+            <div class="input_field">
+                <input id="password_nhaplai" type="password" placeholder="Nhap lai mat khau">
+            </div>
+            <a href="login.html"> Đăng nhập</a>
+            <button id="btnSignup" class="btn" onclick="signup()">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

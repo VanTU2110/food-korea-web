@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toan</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../BeVietnamPro-Black.ttf">
+    <script src="https://kit.fontawesome.com/d5f3e70d70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/thanhtoan.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="contact">
+            <div class="contact-1">
+                <img src="../img/logo-gogi-house-X5.png" alt="">
+                <div class="login">
+                    <a href="login.html">Đăng Nhập</a>
+                    <a class="login-cart" href=""><i class="fa-solid fa-cart-shopping"><span>150.000</span> <sup>đ</sup></i></a>
+                </div>
+            </div>
+            <div class="contact-2">
+                <a href="index.html">TRANG CHỦ</a>
+                <a href="">GIỚI THIỆU</a>
+                <a href="">SẢN PHẨM</a>
+                <a href="">BLOG</a>
+                <div class="box">
+                    <input
+                        type="text"
+                        class="input"
+                    />
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="oder-form">
+            <form action="">
+                <h2 style="padding-bottom: 50x;">Thông tin đơn hàng</h2>
+                <form id="orderForm">
+                    <div>
+                        <label for="name">Họ và tên:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Số điện thoại:</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    <div>
+                        <label for="address">Địa chỉ giao hàng:</label>
+                        <textarea id="address" name="address" required></textarea>
+                    </div>
+                    <button type="submit">Chốt đơn</button>
+            </form>
+        </div>
+        <div class="cart">
+            <h2>Thông tin sản phẩm</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Chọn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div style="text-align:right;" class="price-total">
+                <p style="font-weight: bold;">Tổng tiền:<span>150.000</span> <sup>đ</sup></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer-cha">
+            
+            <div class="footer-logo">
+                <a href="file:///C:/Users/RAGHAV/Desktop/Coding/Grocery/Logo.png"><span>FOODY</span></a>
+                
+                <div class="footer-mxh">
+                    <a href="https://www.facebook.com/"><img src="../img/bxl-facebook.svg"></a>
+                    <a href="https://twitter.com/?lang=en-in"><img src="../img/instagram-logo-24.png"></i></a>
+                    <a href="https://www.instagram.com/"><img src="../img/bxl-tiktok.svg"></i></a>
+                    <a href="https://www.youtube.com/"><img src="../img/bxl-youtube.svg"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-nd">
+                <strong style="margin-left: 1.9rem;">Sản phẩm</strong>
+                <ul>
+                    <li><a href="#">Sản phẩm </a></li>
+                    <li><a href="#">Dụng cụ </a></li>
+                    <li><a href="#">Thông tin</a></li>
+                </ul>
+            </div>
+        
+            <div class="footer-nd">
+                <strong style="margin-left: 1.9rem;">Thể loại</strong>
+                <ul>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Dụng cụ</a></li>
+                    <li><a href="#">Thông tin</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nd">
+                <strong style="margin-left: 1.9rem;">Liên lạc</strong>
+                <ul>
+                    <li><a href="#">Phone : 0976341292</a></li>
+                    <li><a href="#">Email : testyourcode123@gmail.com</a></li>
+                    <li><a href="#">Coffe webstie server</a></li>
+                </ul>
+                <br><p style="color: white; margin-left: 1.9rem; margin-top: -20px;">Copyright ©2022 | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
